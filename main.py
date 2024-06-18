@@ -52,7 +52,7 @@ def run_measurement():
         items = buffer.split(":")
         measurement = {}
 
-        if items[0] == "input" and len(items) == 18:
+        if items[0] == "input" and len(items) == 14:
             for i in range(0, len(items), 2):
                 key = items[i]
                 value = items[i + 1]
@@ -73,8 +73,6 @@ def plot_graph(data):
     inputs = [entry["input"] for entry in data]
     setpoints = [entry["setpoint"] for entry in data]
     outputs = [entry["output"] for entry in data]
-    pwms = [entry["pwm"] for entry in data]
-    measured = [entry["measured"] / 3.0 for entry in data]
     kps = [entry["kp"] for entry in data]
     kis = [entry["ki"] for entry in data]
     kds = [entry["kd"] for entry in data]
@@ -86,8 +84,6 @@ def plot_graph(data):
     # Plot the data
     ax.plot(inputs, label="Input")
     ax.plot(outputs, label="Output")
-    ax.plot(pwms, label="PWM Input")
-    ax.plot(measured, label="Measured")
     ax.plot(distances, label="Distance")
 
     # Set plot title and labels
