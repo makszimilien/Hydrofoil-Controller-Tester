@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d4cc791-466a-41f9-a112-51e440be483c" name="Changes" comment="Add inputs for run_measurement_motion_sequence, fix run_measurement, use DTR and RTS" />
+    <list default="true" id="3d4cc791-466a-41f9-a112-51e440be483c" name="Changes" comment="Change plotted values according to the incoming data">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718736418139</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change plotted values according to the incoming data">
+      <option name="closed" value="true" />
+      <created>1718737881411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718737881411</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +136,7 @@
     <MESSAGE value="Create functions for motion control, serial initialization and data acquisition" />
     <MESSAGE value="Finish data acquisition, make a function to plot the result" />
     <MESSAGE value="Add inputs for run_measurement_motion_sequence, fix run_measurement, use DTR and RTS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add inputs for run_measurement_motion_sequence, fix run_measurement, use DTR and RTS" />
+    <MESSAGE value="Change plotted values according to the incoming data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change plotted values according to the incoming data" />
   </component>
 </project>

@@ -98,7 +98,7 @@ def plot_graph(data):
     plt.show()
 
 
-serial = init_serial(19200)
+serial = init_serial(115200)
 
 # min_speed = int(input("Min speed: "))
 # max_speed = int(input("Max speed: "))
