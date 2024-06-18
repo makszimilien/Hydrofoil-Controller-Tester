@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d4cc791-466a-41f9-a112-51e440be483c" name="Changes" comment="Add test-rig motion control">
+    <list default="true" id="3d4cc791-466a-41f9-a112-51e440be483c" name="Changes" comment="Create functions for motion control, serial initialization and data acquisition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -84,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718638489374</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create functions for motion control, serial initialization and data acquisition">
+      <option name="closed" value="true" />
+      <created>1718700644661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718700644661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add test-rig motion control" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test-rig motion control" />
+    <MESSAGE value="Create functions for motion control, serial initialization and data acquisition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create functions for motion control, serial initialization and data acquisition" />
   </component>
 </project>
